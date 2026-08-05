@@ -1,0 +1,100 @@
+{
+    "competition_title": "Previsão Binária de Cogumelos Venenosos",
+    "overview": "O objetivo desta competição é prever se um cogumelo é comestível ou venenoso com base em suas características físicas. Artefatos nos dados não foram limpos.",
+    "evaluation_metric": "As submissões são avaliadas usando o coeficiente de correlação de Matthews (MCC).",
+    "target_column": "classe",
+    "submission_format": "Para cada linha 'id' no conjunto de teste, você deve prever a classe alvo, se a observação é comestível (e) ou venenosa (p). O arquivo deve conter um cabeçalho e ter o seguinte formato:\nid,classe\n3116945,e\n3116946,p\n3116947,e\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "classe",
+            "values": [
+                "e",
+                "p"
+            ]
+        },
+        {
+            "column_name": "diametro_chapeu",
+            "values": []
+        },
+        {
+            "column_name": "formato_chapeu",
+            "values": []
+        },
+        {
+            "column_name": "superficie_chapeu",
+            "values": []
+        },
+        {
+            "column_name": "cor_chapeu",
+            "values": []
+        },
+        {
+            "column_name": "machuca_ou_sangra",
+            "values": []
+        },
+        {
+            "column_name": "fixacao_lamela",
+            "values": []
+        },
+        {
+            "column_name": "espacamento_lamela",
+            "values": []
+        },
+        {
+            "column_name": "cor_lamela",
+            "values": []
+        },
+        {
+            "column_name": "altura_haste",
+            "values": []
+        },
+        {
+            "column_name": "largura_haste",
+            "values": []
+        },
+        {
+            "column_name": "raiz_haste",
+            "values": []
+        },
+        {
+            "column_name": "superficie_haste",
+            "values": []
+        },
+        {
+            "column_name": "cor_haste",
+            "values": []
+        },
+        {
+            "column_name": "tipo_veu",
+            "values": []
+        },
+        {
+            "column_name": "cor_veu",
+            "values": []
+        },
+        {
+            "column_name": "tem_anel",
+            "values": []
+        },
+        {
+            "column_name": "tipo_anel",
+            "values": []
+        },
+        {
+            "column_name": "cor_impressao_esporo",
+            "values": []
+        },
+        {
+            "column_name": "habitat",
+            "values": []
+        },
+        {
+            "column_name": "estacao",
+            "values": []
+        }
+    ]
+}

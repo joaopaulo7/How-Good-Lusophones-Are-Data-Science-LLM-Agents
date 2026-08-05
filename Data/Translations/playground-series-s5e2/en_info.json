@@ -1,0 +1,79 @@
+{
+    "competition_title": "Backpack Prediction Challenge",
+    "overview": "Predict the price of backpacks given various attributes.",
+    "evaluation_metric": "Submissions are scored on the root mean squared error (RMSE).",
+    "target_column": "Price",
+    "submission_format": "For each id in the test set, you must predict the Price of the backpack. The file should contain a header and have the following format:\nid,Price\n300000,81.411\n300001,81.411\n300002,81.411\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "Brand",
+            "values": []
+        },
+        {
+            "column_name": "Material",
+            "values": [
+                "Leather",
+                "Canvas",
+                "Nylon",
+                "Polyester"
+            ]
+        },
+        {
+            "column_name": "Size",
+            "values": [
+                "Medium",
+                "Small",
+                "Large"
+            ]
+        },
+        {
+            "column_name": "Compartments",
+            "values": []
+        },
+        {
+            "column_name": "Laptop Compartment",
+            "values": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "column_name": "Waterproof",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "column_name": "Style",
+            "values": [
+                "Tote",
+                "Messenger",
+                "Backpack"
+            ]
+        },
+        {
+            "column_name": "Color",
+            "values": [
+                "Black",
+                "Green",
+                "Red",
+                "Blue",
+                "Gray",
+                "Pink"
+            ]
+        },
+        {
+            "column_name": "Weight Capacity (kg)",
+            "values": []
+        },
+        {
+            "column_name": "Price",
+            "values": []
+        }
+    ]
+}

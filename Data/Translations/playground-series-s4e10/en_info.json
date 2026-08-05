@@ -1,0 +1,76 @@
+{
+    "competition_title": "Loan Approval Prediction",
+    "overview": "The goal for this competition is to predict whether an applicant is approved for a loan.",
+    "evaluation_metric": "Submissions are evaluated using area under the ROC curve using the predicted probabilities and the ground truth targets.",
+    "target_column": "loan_status",
+    "submission_format": "For each id row in the test set, you must predict target loan_status. The file should contain a header and have the following format:\n```\nid,loan_status\n58645,0.5\n58646,0.5\n58647,0.5\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "person_age",
+            "values": []
+        },
+        {
+            "column_name": "person_income",
+            "values": []
+        },
+        {
+            "column_name": "person_home_ownership",
+            "values": [
+                "RENT",
+                "OWN",
+                "MORTGAGE",
+                "OTHER"
+            ]
+        },
+        {
+            "column_name": "person_emp_length",
+            "values": []
+        },
+        {
+            "column_name": "loan_intent",
+            "values": [
+                "EDUCATION",
+                "MEDICAL",
+                "PERSONAL",
+                "VENTURE",
+                "DEBTCONSOLIDATION",
+                "HOMEIMPROVEMENT"
+            ]
+        },
+        {
+            "column_name": "loan_grade",
+            "values": []
+        },
+        {
+            "column_name": "loan_amnt",
+            "values": []
+        },
+        {
+            "column_name": "loan_int_rate",
+            "values": []
+        },
+        {
+            "column_name": "loan_percent_income",
+            "values": []
+        },
+        {
+            "column_name": "cb_person_default_on_file",
+            "values": [
+                "N",
+                "Y"
+            ]
+        },
+        {
+            "column_name": "cb_person_cred_hist_length",
+            "values": []
+        },
+        {
+            "column_name": "loan_status",
+            "values": []
+        }
+    ]
+}

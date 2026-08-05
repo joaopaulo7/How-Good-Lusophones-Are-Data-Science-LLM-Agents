@@ -1,0 +1,133 @@
+{
+    "competition_title": "Regressão com um Conjunto de Dados de Seguro",
+    "overview": "Os objetivos deste desafio são prever prêmios de seguro com base em vários fatores.",
+    "evaluation_metric": "As submissões são avaliadas usando a Raiz do Erro Logarítmico Quadrático Médio (RMSLE).",
+    "target_column": "Valor do Prêmio",
+    "submission_format": "Para cada linha 'id' no conjunto de teste, você deve prever o alvo contínuo Valor do Prêmio. O arquivo deve conter um cabeçalho e ter o seguinte formato:\nid,Valor do Prêmio\n1200000,1102.545\n1200001,1102.545\n1200002,1102.545\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "Idade",
+            "values": []
+        },
+        {
+            "column_name": "Gênero",
+            "values": [
+                "Feminino",
+                "Masculino"
+            ]
+        },
+        {
+            "column_name": "Renda Anual",
+            "values": []
+        },
+        {
+            "column_name": "Estado Civil",
+            "values": [
+                "Casado",
+                "Divorciado",
+                "Solteiro"
+            ]
+        },
+        {
+            "column_name": "Número de Dependentes",
+            "values": []
+        },
+        {
+            "column_name": "Nível de Educação",
+            "values": [
+                "Bacharelado",
+                "Mestrado",
+                "Ensino Médio",
+                "Doutorado"
+            ]
+        },
+        {
+            "column_name": "Ocupação",
+            "values": [
+                "Autônomo",
+                "Empregado",
+                "Desempregado"
+            ]
+        },
+        {
+            "column_name": "Pontuação de Saúde",
+            "values": []
+        },
+        {
+            "column_name": "Localização",
+            "values": [
+                "Urbano",
+                "Rural",
+                "Suburbano"
+            ]
+        },
+        {
+            "column_name": "Tipo de Apólice",
+            "values": [
+                "Premium",
+                "Abrangente",
+                "Básica"
+            ]
+        },
+        {
+            "column_name": "Sinistros Anteriores",
+            "values": []
+        },
+        {
+            "column_name": "Idade do Veículo",
+            "values": []
+        },
+        {
+            "column_name": "Pontuação de Crédito",
+            "values": []
+        },
+        {
+            "column_name": "Duração do Seguro",
+            "values": []
+        },
+        {
+            "column_name": "Data de Início da Apólice",
+            "values": []
+        },
+        {
+            "column_name": "Feedback do Cliente",
+            "values": [
+                "Ruim",
+                "Médio",
+                "Bom"
+            ]
+        },
+        {
+            "column_name": "Status de Tabagismo",
+            "values": [
+                "Não",
+                "Sim"
+            ]
+        },
+        {
+            "column_name": "Frequência de Exercícios",
+            "values": [
+                "Semanalmente",
+                "Mensalmente",
+                "Diariamente",
+                "Raramente"
+            ]
+        },
+        {
+            "column_name": "Tipo de Imóvel",
+            "values": [
+                "Casa",
+                "Apartamento",
+                "Condomínio"
+            ]
+        },
+        {
+            "column_name": "Valor do Prêmio",
+            "values": []
+        }
+    ]
+}

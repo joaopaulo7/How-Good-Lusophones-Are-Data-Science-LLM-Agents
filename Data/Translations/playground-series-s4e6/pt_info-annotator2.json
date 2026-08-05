@@ -1,0 +1,165 @@
+{
+    "competition_title": "Classificação com um Conjunto de Dados de Sucesso Acadêmico",
+    "overview": "O objetivo desta competição é prever o risco acadêmico de estudantes no ensino superior.",
+    "evaluation_metric": "As submissões são avaliadas utilizando a métrica de acurácia (accuracy score).",
+    "target_column": "Alvo",
+    "submission_format": "Para cada linha 'id' no conjunto de teste, você deve prever o valor da classe 'Alvo', que é uma avaliação categórica de risco acadêmico. O arquivo deve conter um cabeçalho e ter o seguinte formato:\n```\nid,Alvo\n76518,Graduado\n76519,Graduado\n76520,Graduado\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "Estado civil",
+            "values": []
+        },
+        {
+            "column_name": "Modo de aplicação",
+            "values": []
+        },
+        {
+            "column_name": "Ordem de aplicação",
+            "values": []
+        },
+        {
+            "column_name": "Curso",
+            "values": []
+        },
+        {
+            "column_name": "Turno (matutino/noturno)",
+            "values": []
+        },
+        {
+            "column_name": "Qualificação anterior",
+            "values": []
+        },
+        {
+            "column_name": "Qualificação anterior (nota)",
+            "values": []
+        },
+        {
+            "column_name": "Nacionalidade",
+            "values": []
+        },
+        {
+            "column_name": "Qualificação da mãe",
+            "values": []
+        },
+        {
+            "column_name": "Qualificação do pai",
+            "values": []
+        },
+        {
+            "column_name": "Ocupação da mãe",
+            "values": []
+        },
+        {
+            "column_name": "Ocupação do pai",
+            "values": []
+        },
+        {
+            "column_name": "Nota de admissão",
+            "values": []
+        },
+        {
+            "column_name": "Deslocado",
+            "values": []
+        },
+        {
+            "column_name": "Necessidades educacionais especiais",
+            "values": []
+        },
+        {
+            "column_name": "Devedor",
+            "values": []
+        },
+        {
+            "column_name": "Taxas de matrícula em dia",
+            "values": []
+        },
+        {
+            "column_name": "Gênero",
+            "values": []
+        },
+        {
+            "column_name": "Bolsista",
+            "values": []
+        },
+        {
+            "column_name": "Idade na matrícula",
+            "values": []
+        },
+        {
+            "column_name": "Internacional",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 1º sem. (creditados)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 1º sem. (matriculados)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 1º sem. (avaliações)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 1º sem. (aprovados)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 1º sem. (nota)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 1º sem. (sem Avaliações)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 2º sem. (creditados)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 2º sem. (matriculados)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 2º sem. (avaliações)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 2º sem. (aprovados)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 2º sem. (nota)",
+            "values": []
+        },
+        {
+            "column_name": "Componentes curriculares 2º sem. (sem avaliações)",
+            "values": []
+        },
+        {
+            "column_name": "Taxa de desemprego",
+            "values": []
+        },
+        {
+            "column_name": "Taxa de inflação",
+            "values": []
+        },
+        {
+            "column_name": "PIB",
+            "values": []
+        },
+        {
+            "column_name": "Alvo",
+            "values": [
+                "Graduado",
+                "Desistente",
+                "Matriculado"
+            ]
+        }
+    ]
+}

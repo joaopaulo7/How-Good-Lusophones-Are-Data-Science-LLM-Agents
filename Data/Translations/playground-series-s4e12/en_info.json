@@ -1,0 +1,133 @@
+{
+    "competition_title": "Regression with an Insurance Dataset",
+    "overview": "The objectives of this challenge is to predict insurance premiums based on various factors.",
+    "evaluation_metric": "Submissions are evaluated using the Root Mean Squared Logarithmic Error (RMSLE).",
+    "target_column": "Premium Amount",
+    "submission_format": "For each id row in the test set, you must predict the continuous target Premium Amount. The file should contain a header and have the following format:\nid,Premium Amount\n1200000,1102.545\n1200001,1102.545\n1200002,1102.545\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "Age",
+            "values": []
+        },
+        {
+            "column_name": "Gender",
+            "values": [
+                "Female",
+                "Male"
+            ]
+        },
+        {
+            "column_name": "Annual Income",
+            "values": []
+        },
+        {
+            "column_name": "Marital Status",
+            "values": [
+                "Married",
+                "Divorced",
+                "Single"
+            ]
+        },
+        {
+            "column_name": "Number of Dependents",
+            "values": []
+        },
+        {
+            "column_name": "Education Level",
+            "values": [
+                "Bachelor's",
+                "Master's",
+                "High School",
+                "PhD"
+            ]
+        },
+        {
+            "column_name": "Occupation",
+            "values": [
+                "Self-Employed",
+                "Employed",
+                "Unemployed"
+            ]
+        },
+        {
+            "column_name": "Health Score",
+            "values": []
+        },
+        {
+            "column_name": "Location",
+            "values": [
+                "Urban",
+                "Rural",
+                "Suburban"
+            ]
+        },
+        {
+            "column_name": "Policy Type",
+            "values": [
+                "Premium",
+                "Comprehensive",
+                "Basic"
+            ]
+        },
+        {
+            "column_name": "Previous Claims",
+            "values": []
+        },
+        {
+            "column_name": "Vehicle Age",
+            "values": []
+        },
+        {
+            "column_name": "Credit Score",
+            "values": []
+        },
+        {
+            "column_name": "Insurance Duration",
+            "values": []
+        },
+        {
+            "column_name": "Policy Start Date",
+            "values": []
+        },
+        {
+            "column_name": "Customer Feedback",
+            "values": [
+                "Poor",
+                "Average",
+                "Good"
+            ]
+        },
+        {
+            "column_name": "Smoking Status",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "column_name": "Exercise Frequency",
+            "values": [
+                "Weekly",
+                "Monthly",
+                "Daily",
+                "Rarely"
+            ]
+        },
+        {
+            "column_name": "Property Type",
+            "values": [
+                "House",
+                "Apartment",
+                "Condo"
+            ]
+        },
+        {
+            "column_name": "Premium Amount",
+            "values": []
+        }
+    ]
+}

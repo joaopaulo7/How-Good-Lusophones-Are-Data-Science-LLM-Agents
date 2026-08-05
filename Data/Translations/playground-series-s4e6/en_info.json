@@ -1,0 +1,165 @@
+{
+    "competition_title": "Classification with an Academic Success Dataset",
+    "overview": "The goal of this competition is to predict academic risk of students in higher education.",
+    "evaluation_metric": "Submissions are evaluated using the accuracy score.",
+    "target_column": "Target",
+    "submission_format": "For each id row in the test set, you must predict the class value of the Target, which is a categorical academic risk assessment. The file should contain a header and have the following format:\n```\nid,Target\n76518,Graduate\n76519,Graduate\n76520,Graduate\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "Marital status",
+            "values": []
+        },
+        {
+            "column_name": "Application mode",
+            "values": []
+        },
+        {
+            "column_name": "Application order",
+            "values": []
+        },
+        {
+            "column_name": "Course",
+            "values": []
+        },
+        {
+            "column_name": "Daytime/evening attendance",
+            "values": []
+        },
+        {
+            "column_name": "Previous qualification",
+            "values": []
+        },
+        {
+            "column_name": "Previous qualification (grade)",
+            "values": []
+        },
+        {
+            "column_name": "Nacionality",
+            "values": []
+        },
+        {
+            "column_name": "Mother's qualification",
+            "values": []
+        },
+        {
+            "column_name": "Father's qualification",
+            "values": []
+        },
+        {
+            "column_name": "Mother's occupation",
+            "values": []
+        },
+        {
+            "column_name": "Father's occupation",
+            "values": []
+        },
+        {
+            "column_name": "Admission grade",
+            "values": []
+        },
+        {
+            "column_name": "Displaced",
+            "values": []
+        },
+        {
+            "column_name": "Educational special needs",
+            "values": []
+        },
+        {
+            "column_name": "Debtor",
+            "values": []
+        },
+        {
+            "column_name": "Tuition fees up to date",
+            "values": []
+        },
+        {
+            "column_name": "Gender",
+            "values": []
+        },
+        {
+            "column_name": "Scholarship holder",
+            "values": []
+        },
+        {
+            "column_name": "Age at enrollment",
+            "values": []
+        },
+        {
+            "column_name": "International",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 1st sem (credited)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 1st sem (enrolled)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 1st sem (evaluations)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 1st sem (approved)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 1st sem (grade)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 1st sem (without evaluations)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 2nd sem (credited)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 2nd sem (enrolled)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 2nd sem (evaluations)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 2nd sem (approved)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 2nd sem (grade)",
+            "values": []
+        },
+        {
+            "column_name": "Curricular units 2nd sem (without evaluations)",
+            "values": []
+        },
+        {
+            "column_name": "Unemployment rate",
+            "values": []
+        },
+        {
+            "column_name": "Inflation rate",
+            "values": []
+        },
+        {
+            "column_name": "GDP",
+            "values": []
+        },
+        {
+            "column_name": "Target",
+            "values": [
+                "Graduate",
+                "Dropout",
+                "Enrolled"
+            ]
+        }
+    ]
+}

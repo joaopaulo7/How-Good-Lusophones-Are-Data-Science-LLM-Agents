@@ -1,0 +1,165 @@
+{
+    "competition_title": "Classificação com um Conjunto de Dados de Sucesso Acadêmico",
+    "overview": "O objetivo desta competição é prever o risco acadêmico de estudantes no ensino superior.",
+    "evaluation_metric": "As submissões são avaliadas utilizando a métrica de acurácia (accuracy score).",
+    "target_column": "Alvo",
+    "submission_format": "Para cada linha 'id' no conjunto de teste, você deve prever o valor da classe 'Alvo', que é uma avaliação categórica de risco acadêmico. O arquivo deve conter um cabeçalho e ter o seguinte formato:\n```\nid,Alvo\n76518,Graduate\n76519,Graduate\n76520,Graduate\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "Estado Civil",
+            "values": []
+        },
+        {
+            "column_name": "Modo de Aplicação",
+            "values": []
+        },
+        {
+            "column_name": "Ordem de Aplicação",
+            "values": []
+        },
+        {
+            "column_name": "Curso",
+            "values": []
+        },
+        {
+            "column_name": "Turno",
+            "values": []
+        },
+        {
+            "column_name": "Qualificação Anterior",
+            "values": []
+        },
+        {
+            "column_name": "Qualificação Anterior (nota)",
+            "values": []
+        },
+        {
+            "column_name": "Nacionalidade",
+            "values": []
+        },
+        {
+            "column_name": "Qualificação da Mãe",
+            "values": []
+        },
+        {
+            "column_name": "Qualificação do Pai",
+            "values": []
+        },
+        {
+            "column_name": "Ocupação da Mãe",
+            "values": []
+        },
+        {
+            "column_name": "Ocupação do Pai",
+            "values": []
+        },
+        {
+            "column_name": "Nota de Admissão",
+            "values": []
+        },
+        {
+            "column_name": "Deslocado",
+            "values": []
+        },
+        {
+            "column_name": "Necessidades Educacionais Especiais",
+            "values": []
+        },
+        {
+            "column_name": "Devedor",
+            "values": []
+        },
+        {
+            "column_name": "Taxas de Matrícula em Dia",
+            "values": []
+        },
+        {
+            "column_name": "Gênero",
+            "values": []
+        },
+        {
+            "column_name": "Bolsista",
+            "values": []
+        },
+        {
+            "column_name": "Idade na Matrícula",
+            "values": []
+        },
+        {
+            "column_name": "Internacional",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 1º Sem (Creditadas)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 1º Sem (Matriculadas)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 1º Sem (Avaliações)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 1º Sem (Aprovadas)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 1º Sem (Nota)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 1º Sem (Sem Avaliações)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 2º Sem (Creditadas)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 2º Sem (Matriculadas)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 2º Sem (Avaliações)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 2º Sem (Aprovadas)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 2º Sem (Nota)",
+            "values": []
+        },
+        {
+            "column_name": "Disciplinas 2º Sem (Sem Avaliações)",
+            "values": []
+        },
+        {
+            "column_name": "Taxa de Desemprego",
+            "values": []
+        },
+        {
+            "column_name": "Taxa de Inflação",
+            "values": []
+        },
+        {
+            "column_name": "PIB",
+            "values": []
+        },
+        {
+            "column_name": "Alvo",
+            "values": [
+                "Graduate",
+                "Dropout",
+                "Enrolled"
+            ]
+        }
+    ]
+}

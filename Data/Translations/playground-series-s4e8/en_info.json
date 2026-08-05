@@ -1,0 +1,100 @@
+{
+    "competition_title": "Binary Prediction of Poisonous Mushrooms",
+    "overview": "The goal of this competition is to predict whether a mushroom is edible or poisonous based on its physical characteristics. Data artifacts have not been cleaned up.",
+    "evaluation_metric": "Submissions are evaluated using the Matthews correlation coefficient (MCC).",
+    "target_column": "class",
+    "submission_format": "For each id row in the test set, you must predict target class, whether the observation is editable (e) or poisonous (p). The file should contain a header and have the following format:\nid,class\n3116945,e\n3116946,p\n3116947,e\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "class",
+            "values": [
+                "e",
+                "p"
+            ]
+        },
+        {
+            "column_name": "cap-diameter",
+            "values": []
+        },
+        {
+            "column_name": "cap-shape",
+            "values": []
+        },
+        {
+            "column_name": "cap-surface",
+            "values": []
+        },
+        {
+            "column_name": "cap-color",
+            "values": []
+        },
+        {
+            "column_name": "does-bruise-or-bleed",
+            "values": []
+        },
+        {
+            "column_name": "gill-attachment",
+            "values": []
+        },
+        {
+            "column_name": "gill-spacing",
+            "values": []
+        },
+        {
+            "column_name": "gill-color",
+            "values": []
+        },
+        {
+            "column_name": "stem-height",
+            "values": []
+        },
+        {
+            "column_name": "stem-width",
+            "values": []
+        },
+        {
+            "column_name": "stem-root",
+            "values": []
+        },
+        {
+            "column_name": "stem-surface",
+            "values": []
+        },
+        {
+            "column_name": "stem-color",
+            "values": []
+        },
+        {
+            "column_name": "veil-type",
+            "values": []
+        },
+        {
+            "column_name": "veil-color",
+            "values": []
+        },
+        {
+            "column_name": "has-ring",
+            "values": []
+        },
+        {
+            "column_name": "ring-type",
+            "values": []
+        },
+        {
+            "column_name": "spore-print-color",
+            "values": []
+        },
+        {
+            "column_name": "habitat",
+            "values": []
+        },
+        {
+            "column_name": "season",
+            "values": []
+        }
+    ]
+}

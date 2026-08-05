@@ -1,0 +1,76 @@
+{
+    "competition_title": "Previsão de Aprovação de Empréstimo",
+    "overview": "O objetivo desta competição é prever se um candidato será aprovado para um empréstimo.",
+    "evaluation_metric": "As submissões são avaliadas usando a área sob a curva ROC, utilizando as probabilidades previstas e os valores reais (ground truth/padrão ouro).",
+    "target_column": "loan_status",
+    "submission_format": "Para cada linha 'id' no conjunto de teste, você deve prever o alvo 'status_emprestimo'. O arquivo deve conter um cabeçalho e ter o seguinte formato:\n```\nid,loan_status\n58645,0.5\n58646,0.5\n58647,0.5\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "idade_pessoa",
+            "values": []
+        },
+        {
+            "column_name": "renda_pessoa",
+            "values": []
+        },
+        {
+            "column_name": "posse_casa_pessoa",
+            "values": [
+                "ALUGUEL",
+                "PROPRIA",
+                "HIPOTECA",
+                "OUTRO"
+            ]
+        },
+        {
+            "column_name": "tempo_emprego_pessoa",
+            "values": []
+        },
+        {
+            "column_name": "intencao_emprestimo",
+            "values": [
+                "EDUCACAO",
+                "MEDICO",
+                "PESSOAL",
+                "EMPREENDEDOR",
+                "CONSOLIDACAO_DIVIDA",
+                "MELHORIA_CASA"
+            ]
+        },
+        {
+            "column_name": "grau_emprestimo",
+            "values": []
+        },
+        {
+            "column_name": "valor_emprestimo",
+            "values": []
+        },
+        {
+            "column_name": "taxa_juros_emprestimo",
+            "values": []
+        },
+        {
+            "column_name": "porcentagem_emprestimo_renda",
+            "values": []
+        },
+        {
+            "column_name": "cb_pessoa_inadimplente_em_arquivo",
+            "values": [
+                "N",
+                "Y"
+            ]
+        },
+        {
+            "column_name": "cb_pessoa_historico_credito_comprimento",
+            "values": []
+        },
+        {
+            "column_name": "loan_status",
+            "values": []
+        }
+    ]
+}

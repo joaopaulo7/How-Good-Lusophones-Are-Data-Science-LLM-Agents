@@ -1,0 +1,79 @@
+{
+    "competition_title": "Desafio de Previsão de Mochilas",
+    "overview": "Preveja o preço de mochilas com base em vários atributos.",
+    "evaluation_metric": "As submissões são avaliadas pela raiz do erro quadrático médio (RMSE).",
+    "target_column": "Preço",
+    "submission_format": "Para cada id no conjunto de teste, você deve prever o Preço da mochila. O arquivo deve conter um cabeçalho e ter o seguinte formato:\nid,Preço\n300000,81.411\n300001,81.411\n300002,81.411\netc.\n```",
+    "columns": [
+        {
+            "column_name": "id",
+            "values": []
+        },
+        {
+            "column_name": "Marca",
+            "values": []
+        },
+        {
+            "column_name": "Material",
+            "values": [
+                "Couro",
+                "Lona",
+                "Nylon",
+                "Poliéster"
+            ]
+        },
+        {
+            "column_name": "Tamanho",
+            "values": [
+                "Médio",
+                "Pequeno",
+                "Grande"
+            ]
+        },
+        {
+            "column_name": "Compartimentos",
+            "values": []
+        },
+        {
+            "column_name": "Compartimento para Laptop",
+            "values": [
+                "Sim",
+                "Não"
+            ]
+        },
+        {
+            "column_name": "À Prova d'Água",
+            "values": [
+                "Não",
+                "Sim"
+            ]
+        },
+        {
+            "column_name": "Estilo",
+            "values": [
+                "Sacola",
+                "Mensageiro",
+                "Mochila"
+            ]
+        },
+        {
+            "column_name": "Cor",
+            "values": [
+                "Preto",
+                "Verde",
+                "Vermelho",
+                "Azul",
+                "Cinza",
+                "Rosa"
+            ]
+        },
+        {
+            "column_name": "Capacidade de Peso (kg)",
+            "values": []
+        },
+        {
+            "column_name": "Preço",
+            "values": []
+        }
+    ]
+}
