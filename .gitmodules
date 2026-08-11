@@ -1,0 +1,3 @@
+[submodule "MetaGPT-DataExplainer"]
+	path = MetaGPT-DataExplainer
+	url = https://github.com/joaopaulo7/MetaGPT-DataExplainer.git
